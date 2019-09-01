@@ -48,7 +48,7 @@ Para ver mas versiones visitar https://micropython.org/download#esp32
 
 Cambiar el numero del puerto COM
 
-al final ponemos la direccion de nuestro binario
+al final ponemos la dirección de nuestro binario
 
     esptool.py --chip esp32 --port COM8 --baud 460800 write_flash -z 0x1000 C:\Users\Descargas\esp32-20190529-v1.11.bin
 
@@ -60,4 +60,4 @@ al final ponemos la direccion de nuestro binario
 
 3 Damos clic en OPEN para abrir el puerto y 
 
-4 Doble clic en RST para resetear el chip o podemos pulsar el boton de la plaza y veremos micropython en nuestra consola
+4 Doble clic en RTS para resetear el chip o podemos pulsar el boton de la plaza y veremos micropython en nuestra consola
