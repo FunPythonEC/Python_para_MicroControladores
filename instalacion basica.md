@@ -12,7 +12,7 @@
 
 Sera el IDE para programar el esp32 con micropython
 
-3 Instalar python cualquier version
+3 Instalar python cualquier version, y marcar la casilla agregar al PATH durante la instalacion
 
     https://www.python.org/downloads/windows/
 
