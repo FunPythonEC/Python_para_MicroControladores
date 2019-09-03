@@ -42,7 +42,7 @@ Para ver mas versiones visitar https://micropython.org/download#esp32
 
 9 Abrir la terminal y con el sig comando borrar el flash del esp32
 
-    esptool.py --chip esp32 erase_flash
+    esptool --chip esp32 erase_flash
 
 8 Luego grabar el binario que descargarmos en el ESP32
 
@@ -50,7 +50,7 @@ Cambiar el numero del puerto COM
 
 al final ponemos la direccion de nuestro binario
 
-    esptool.py --chip esp32 --port COM8 --baud 460800 write_flash -z 0x1000 C:\Users\Descargas\esp32-20190529-v1.11.bin
+    esptool --chip esp32 --port COM8 --baud 460800 write_flash -z 0x1000 C:\Users\Descargas\esp32-20190529-v1.11.bin
 
 ## Probando MicroPython
 
