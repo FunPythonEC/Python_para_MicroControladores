@@ -8,7 +8,7 @@ Se usa espcialemte en el desarrollo de inteligencia artifical, ciencia de datos 
 
 [Diapositivas charla online para IoT Medellin](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/PythonParaMicrocontroladores-IoT_Medellin-FPY.pdf)
 
-[Articulo sobre Python en Hardware por Drew Fustini](https://hackspace.raspberrypi.org/articles/python-on-hardware); un diseñador de hardware y desarrollador de Linux para sistemas embebidos. Es vicepresidente de la Open Source Hardware Association, miembro de la fundacion BeagleBoard.org  y embajador de RISC-V.
+[Articulo sobre Python en Hardware](https://hackspace.raspberrypi.org/articles/python-on-hardware) por Drew Fustini; un diseñador de hardware y desarrollador de Linux para sistemas embebidos. Es vicepresidente de la Open Source Hardware Association, miembro de la fundacion BeagleBoard.org  y embajador de RISC-V.
 
 
 ## MicroPython
