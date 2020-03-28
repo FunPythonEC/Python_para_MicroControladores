@@ -39,7 +39,7 @@ PORTENTA H7 | STM32H747 | ARDUINO | CORTEX M7 Y M4 32-BIT, ACELERADOR GRÁFICO, 
 
 [Simulador MicroPython online con tarjeta Pyboard](https://micropython.org/unicorn/)
 
-[Tutorial en español por FunPython](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/Instalando_MicroPython)
+[Tutorial en español por FunPython](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/Instalando_MicroPython.md)
 
 ## CircuitPython
 
