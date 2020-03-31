@@ -19,8 +19,8 @@ Enlace a sus repositorios
 
 4. Abrimos la cmd (hay dos formas de hacerlo, con el teclado o buscando en menú de inicio):
 
-<img src="media/micropython/abrir-cmd.png" width="40%"> 
-<img src="media/micropython/CMD-atajo-teclado.jpg" width="30%"> 
+<img src="media/micropython/abrir-cmd.png" width="50%"> 
+<img src="media/micropython/CMD-atajo-teclado.jpg" width="50%"> 
 
 5. Usamos el sigueinte comando para instalar esptool(nos permite flashear el firmware de MicroPython en la tarjeta):
 
@@ -39,12 +39,12 @@ Pyboard, ESP32, ESP8266, WiPy u otro:
 
     https://micropython.org/dowmloads
 
-<img src="media/micropython/micropyhton-descargar.png" width="40%"> 
+<img src="media/micropython/micropyhton-descargar.png" width="50%"> 
 
 2. Conectar el USB y abrir el administrador de dispositivos de windows y verificamos el número de puerto COM:
 
-<img src="media/micropython/administrador-de-dispo.jpg" width="20%"> 
-<img src="media/micropython/puertoCOM.jpg" width="30%"> 
+<img src="media/micropython/administrador-de-dispo.jpg" width="50%"> 
+<img src="media/micropython/puertoCOM.jpg" width="50%"> 
 
 3. Abrir la terminal CMD y con el sig comando borrar el flash del microcontrolador:
 
@@ -89,19 +89,24 @@ Antes de usar este comando se debe cambiar el puerto **COMx** y al final ponemos
 
 2. En la pestaña SETTINGS marcar la casilla "micropyhon":
 
-<img src="media/micropython/cambiando-a-upy.png" width="30%"> 
+<img src="media/micropython/cambiando-a-upy.png" width="50%"> 
 
 
 3. Cambiamos la velocidad a 115200 y damos clic en OPEN para abrir el puerto:
 
-<img src="media/micropython/abrir-puerto.png" width="30%"> 
+<img src="media/micropython/abrir-puerto.png" width="50%"> 
 
 
-4. Doble clic en RST para resetear el chip (el el primer clic se hara verde, en el segundo click se hara gris) y saldran mensajes por serial o podemos pulsar el boton de la tarjeta y veremos micropython en nuestra consola:
+4. Doble clic en RTS para resetear el chip (el el primer clic se hara verde, en el segundo click se hara gris) y saldran mensajes por serial o podemos pulsar el boton de la tarjeta y veremos micropython en nuestra consola:
 
-<img src="media/micropython/reset.png" width="30%"> 
-<img src="media/micropython/upy-serial.png" width="30%">
+<img src="media/micropython/reset.png" width="50%"> 
+<img src="media/micropython/upy-serial.png" width="50%">
 
-## Para acceder al sistema de archivos puedes usar la siguiente guía 
+## Recursos extras (próximamente con videos)
 
-[Sistema de archivos con ampy](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/Sistema_de_archivos.md)
+
+* [SISTEMAS DE ARCHIVOS CON AMPY](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/Sistema_de_archivos.md)(como si se tratara de un pendrive, copiar, pegar, borrar archivos y carpetas)
+
+* [INSTALANDO LIBRERIAS USANDO uPIP](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/Instalar_librerias.md) (es como el  PIP que conocemos pero más pequeño)
+
+* [EJEMPLOS CON ESP8266/ESP32](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/ejemplos.md) (proximamente video)
