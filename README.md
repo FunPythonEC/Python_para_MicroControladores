@@ -4,7 +4,7 @@ Python es un lenguaje poderoso y popular en 2019 encabezó el top 10 de lenguaje
 
 <img src="media/top10.jpeg" width="50%"> 
 
-Se usa espcialemte en el desarrollo de inteligencia artifical, ciencia de datos tambien desarrollo web con su framekork Django, entre otras aplicaciones pero los microcontroladores no podian quedarse atrás, con sus principales implemntaciones: [MicroPython](https://micropython.org/) y [CircuitPython](https://circuitpython.org/), tener un interprete en un microcontrolador fue posible gracias al desarrollo de hardware cada dia mas potente.
+Se usa especialemte en el desarrollo de inteligencia artifical, ciencia de datos tambien desarrollo web con su framekork Django, entre otras aplicaciones pero los microcontroladores no podian quedarse atrás, con sus principales implementaciones: [MicroPython](https://micropython.org/) y [CircuitPython](https://circuitpython.org/), tener un interprete en un microcontrolador fue posible gracias al desarrollo de hardware cada dia más potente.
 
 [Diapositivas charla online para IoT Medellin](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/PythonParaMicrocontroladores-IoT_Medellin-FPY.pdf)
 
@@ -15,7 +15,13 @@ Se usa espcialemte en el desarrollo de inteligencia artifical, ciencia de datos 
 
 <img src="media/upython-with-micro.jpg" width="80%"> 
 
-Micropython es una implementacion ligera de python3 ,esta escrita en C, fue creado por el fisico y programador Damien George en 2014 gracias a una exitosa campaña en [Kickstarter](https://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers), junto a la Pyboard, la placa oficial de micropython, desde entonces se ha portado a diferentes plataformas.
+Micropython es una implementacion ligera de python3. creada por el fisico y programador Damien George en 2014 gracias a una exitosa campaña en [Kickstarter](https://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers), junto a la Pyboard, la placa oficial de micropython, desde entonces se ha portado a diferentes plataformas.
+
+A nivel de microcontroladores micropython es un sistema operativo, que incluye un subconjunto de librerias importantes de python (la libreria socket es muy similar a la que usamos en un ordenador)y algunas navitvas para controlar proyectos electronicos, ademas de una sheel interactiva, ademas micropython permite utilizar codigo C++ para optimizar su velocidad. Micropython trata de ser multiplataforma al tener compatiblidad con codigo Python normal y poder enviar tu código de la computadora al microcontrolador con total tranquilidad.
+
+<img src="media/holamundo.png" width="100%"> 
+
+### Tarjetas que han sido portadas con micropython
 
 <img src="media/tarjetas-micropython.jpg" width="80%"> 
 

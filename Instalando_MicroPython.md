@@ -24,11 +24,13 @@ Enlace a sus repositorios
 
 5. Usamos el sigueinte comando para instalar esptool(nos permite flashear el firmware de MicroPython en la tarjeta):
 
-    pip3 install esptool
+`pip3 install esptool
+`
 
 6. Usamos el siguiente comando para instalar ampy (nos permite grabar y borrar los scripts):
 
-    pip3 install adafruit-ampy
+`pip3 install adafruit-ampy
+`
 
 ### Cargar "flashear" el firmware en el microcontrolador
 
@@ -46,21 +48,24 @@ Pyboard, ESP32, ESP8266, WiPy u otro:
 
 3. Abrir la terminal CMD y con el sig comando borrar el flash del microcontrolador:
 
-    **esptool.py** erase_flash
+`esptool.py erase_flash
+`
 
 en algunas versiones el comando va sin el .py
 
-    **esptool** erase_flash
+`esptool erase_flash
+`
 
 4. Vamos a grabar el binario en el microcontrolador:
 
 Antes de usar este comando se debe cambiar el puerto **COMx** y al final ponemos la ruta de nuestro binario, generalemte esta en descargas.
 
-    esptool.py --chip esp32 --port COMx --baud 460800 write_flash -z 0x1000 (ruta del binario)
+`esptool.py --chip esp32 --port COMx --baud 460800 write_flash -z 0x1000 (ruta del binario)
+`
 
 **Ejemplo:** si bajé el binario **esp32-firmware.bin** en descargas, y mi dispositivo esta en el **puerto COM8**.
 
-    esptool.py --chip esp32 --port **COM8** --baud 460800 write_flash -z 0x1000 **C:\Users\Descargas\esp32-firmware.bin**
+`esptool.py --chip esp32 --port COM8 --baud 460800 write_flash -z 0x1000 C:\Users\Descargas\esp32-firmware.bin`
 
 ### Instalar prerequisitos para el IDE ESPlorer
 
@@ -95,4 +100,8 @@ Antes de usar este comando se debe cambiar el puerto **COMx** y al final ponemos
 4. Doble clic en RST para resetear el chip (el el primer clic se hara verde, en el segundo click se hara gris) y saldran mensajes por serial o podemos pulsar el boton de la tarjeta y veremos micropython en nuestra consola:
 
 <img src="media/micropython/reset.png" width="30%"> 
-<img src="media/micropython/upy-serial.png" width="30%"> 
+<img src="media/micropython/upy-serial.png" width="30%">
+
+## Para acceder al sistema de archivos puedes usar la siguiente guía 
+
+[Sistema de archivos con ampy](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/Sistema_de_archivos.md)
