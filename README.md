@@ -6,7 +6,7 @@ Python es un lenguaje poderoso y popular en 2019 encabezó el top 10 de lenguaje
 
 Se usa especialemte en el desarrollo de inteligencia artifical, ciencia de datos tambien desarrollo web con su framekork Django, entre otras aplicaciones pero los microcontroladores no podian quedarse atrás, con sus principales implementaciones: [MicroPython](https://micropython.org/) y [CircuitPython](https://circuitpython.org/), tener un interprete en un microcontrolador fue posible gracias al desarrollo de hardware cada dia más potente.
 
-[Diapositivas charla online para IoT Medellin](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/PythonParaMicrocontroladores-IoT_Medellin-FPY.pdf)
+[Diapositivas charla online CONECTATE_GT](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/PythonParaMicrocontroladores-IoT_Medellin-FPY.pdf)
 
 [Articulo sobre Python en Hardware](https://hackspace.raspberrypi.org/articles/python-on-hardware) por Drew Fustini; un diseñador de hardware y desarrollador de Linux para sistemas embebidos. Es vicepresidente de la Open Source Hardware Association, miembro de la fundacion BeagleBoard.org  y embajador de RISC-V.
 
